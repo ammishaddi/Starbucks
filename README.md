@@ -15,13 +15,13 @@ Descripción del proyecto: Página de Starbucks que busca ser lo más similar po
 - Hay que tener paciencia 
 
 
-## Códigos HTML
+## Códigos de HTML
 ### Código de la navbar 
-![Texto alternativo] (https://i.imgur.com/F3bLDjX.png)
+![Texto alternativo](https://i.imgur.com/F3bLDjX.png)
 ### Código de los rectángulos 
-![Texto alternativo] (https://i.imgur.com/mlNjlth.png)
+![Texto alternativo](https://i.imgur.com/mlNjlth.png)
 ### Código del footer 
-![Texto alternativo] (https://i.imgur.com/acV4w9x.png)
+![Texto alternativo](https://i.imgur.com/acV4w9x.png)
 
 ## Códigos CSS
 Para dar estilo se aplico:
@@ -32,6 +32,8 @@ Para dar estilo se aplico:
 - El footer 
 
 ### Ejemplos de código css
-![Texto alternativo] (https://i.imgur.com/i82hedf.png)
-![Texto alternativo] (https://i.imgur.com/y2mMgnS.png)
-![Texto alternativo] (https://i.imgur.com/NFaD78D.png)
+![Texto alternativo](https://i.imgur.com/i82hedf.png)
+
+![Texto alternativo](https://i.imgur.com/y2mMgnS.png)
+
+![Texto alternativo](https://i.imgur.com/NFaD78D.png)
