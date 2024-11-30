@@ -1,4 +1,4 @@
-# PROYECTO 1 y 2 - PÁGINA WEB CLON DE STARBUCKS
+# PROYECTO MODULO 2- PÁGINA WEB CLON DE STARBUCKS
 El presente repositorio contiene el proyecto 1 y 2 del segundo módulo del curso Frontend de DevF
 Descripción del proyecto: Página de Starbucks que busca ser lo más similar posible a la original
 
