@@ -1,0 +1,277 @@
+body{
+    font-family: sans-serif;
+    display: flex;
+    flex-direction:column;
+    font-size: 15px;
+    margin: 0px;
+    
+}
+
+ul{
+    
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    margin: 15px;
+}
+
+/* NAVBAR */
+.navbar {
+    width: 100%;
+    height: 4vw;
+    background-color: #fff;
+    padding: 15px;
+    box-shadow: 0 2px 4px rgb(128, 124, 124);
+    padding-left: 125px;
+    padding-right: 125px;
+    margin-bottom: 0px;
+
+
+  }
+  
+  .navbar-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 300px;
+  }
+  
+
+ 
+  .navbar ul {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar li {
+    margin: 0 5px;
+    font-weight: bold;
+  }
+  
+  .navbar-nav-left li {
+    margin: 0 -5px;
+    font-weight: bold;
+  }
+  .navbar a {
+    color: #000;
+    text-decoration: none;
+  }
+  
+  .navbar a:hover {
+    color: var(--color-primary);
+  }
+  
+  .navbar-brand img {
+    width: 75px;
+    height: 75px;
+    margin-right: -50px;
+  }
+  
+  .navbar-nav-left {
+    text-transform: uppercase;
+    flex:1;
+  }
+  
+  .navbar-nav-left:hover{
+  color: rgb(20, 88, 20);
+  }
+
+  
+  .navbar-nav-right{
+    display:flex;
+    flex-direction: row;
+  }
+
+  .navbar-nav-right img {
+    display:flex;
+    height: 20px;
+    width: 20px;
+    margin-right: -30px;
+  }
+
+  /* BOTONES */
+  .boton-ingresar{
+    background-color: white;
+    border-radius: 15px;
+    font-weight: bold;
+    padding: 5px;
+    width: 7vw;
+    height: auto;
+
+  }
+
+  .boton-unete{
+    background-color: black;
+    color:white;
+    font-weight: bold;
+    border-radius: 15px;
+    padding: 5px;
+    width: 8vw;
+  }
+
+/* MENÚ */
+
+.titulos{
+    margin-top: 25px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.titulos h2{
+    margin-top: -10px;
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.titulos p{
+    font-weight: 600;
+}
+
+.bebidas{
+    font-weight: 200;
+    margin-top: 20px;
+    margin-left: 200px;
+    margin-right: 200px;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+}
+
+.bebidascalientesicono img{
+    width: 120px;
+    height: 140px;
+}
+
+.bebidascalientesicono{
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-right: 20px;
+    width: 150px;    
+    background-color: rgb(15, 45, 15);
+    border-top-left-radius: 100%;
+    border-top-right-radius: 100%;
+    border-bottom-right-radius: 100%;
+    border-bottom-left-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+
+
+.bebidasiconos{
+    display: grid;
+    row-gap: 30px;
+    column-gap: 30px;
+    grid-template-columns: repeat(3, 1fr);
+    margin-left: 250px;
+    margin-right: 200px;
+
+    
+}
+
+
+.textouno{
+    display: flex;
+    justify-content: center;
+    margin-left: -110px;
+    font-weight: 600;
+}
+
+.textalimentos{
+    margin-left: 65px;
+    font-weight: 600;
+}
+
+
+.textcafe{
+    margin-left: 40px;
+    font-weight: 600;
+}
+
+.containeralimentos{
+    margin-left: 300px;
+    margin-right: 200px;
+}
+
+
+
+.alimentos{
+    font-weight: 200;
+    margin-top: 20px;
+    margin-left: 200px;
+    margin-right: 200px;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+}
+
+.containercafe{
+    margin-left: 300px;
+    margin-right: 200px;
+}
+.cafe{
+    font-weight: 200;
+    margin-top: 20px;
+    margin-left: 200px;
+    margin-right: 200px;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+}
+
+
+
+
+  /* FOOTER */
+
+.redes img{
+    width: 2.3%;
+    height: auto;
+   
+  }
+  
+  .footer {
+      text-align: center;
+      width: 100%;
+      height: auto;
+      background-color: #fff;
+      padding: 15px;
+      box-shadow: 0 1px 3px rgb(128, 124, 124);
+      margin-top: 25px;
+    }
+  
+    .listas{
+        color:rgb(81, 74, 74);
+        display: flex;
+        flex-direction: row;
+        justify-self: start;
+        margin-left: 260px;
+        margin-bottom: 15px;
+        text-align: start;
+
+      }
+      
+  
+   .listas li{
+    padding: 10px;
+    margin-left: -23px;
+    font-size: 13px;
+   }
+
+   .listas li:nth-child(1){
+    padding-top: 30px;
+   }
+
+  .footer-container {
+    width: 80%;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 30px 30px;
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-top-color: rgb(216, 215, 215);
+    padding-top: 3%;
+  }
+
