@@ -1,9 +1,9 @@
 body{
     font-family: sans-serif;
     display: flex;
-    flex-direction:column;
+    flex-direction: column;
     justify-content: center;
-    font-size:20px;
+    font-size: 20px;
     background: white;
     align-items: center;
 
@@ -23,11 +23,11 @@ a { text-decoration: none; }
     width: 100%;
     height: 4.5vw;
     background-color: #fff;
-    padding: 15px;
+    padding: 1%;
     box-shadow: 0 4px 8px rgb(128, 124, 124);
-    padding-left: 200px;
-    padding-right: 200px;
-    margin-bottom: 35px;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    
 
   }
   
@@ -35,8 +35,8 @@ a { text-decoration: none; }
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding-left: 200px;
-    padding-right: 200px;
+    padding-left: 13vw;
+    padding-right: 13vw;
   }
   
 
@@ -47,7 +47,7 @@ a { text-decoration: none; }
   }
   
   .navbar li {
-    margin: 0 15px;
+    margin: 0vw 0.7vw;
     font-weight: bold;
   }
   
@@ -61,8 +61,8 @@ a { text-decoration: none; }
   }
   
   .navbar-brand img {
-    width: 75px;
-    height: 75px;
+    width: 5vw;
+    height: 5vw;
   }
   
   .navbar-nav-left {
@@ -82,15 +82,15 @@ a { text-decoration: none; }
 
   .navbar-nav-right img {
     display:flex;
-    height: 20px;
-    width: 20px;
-    margin-right: -30px;
+    height: 1.3vw;
+    width: 1.3vw;
+    margin-right: -1vw;
   }
   
 /* BOTONES */
   .boton-ingresar{
     background-color: none;
-    border-radius: 15px;
+    border-radius: 2vw;
     padding: 8%;
     width: 5vw;
 
@@ -100,15 +100,15 @@ a { text-decoration: none; }
     background-color: black;
     color:white;
     font-weight: bold;
-    border-radius: 15px;
-    padding: 5px;
+    border-radius: 2vw;
+    padding: 8%;
     width: 5vw;
   }
 
   #boton-vermas{
     background: none;
-    border-radius: 15px;
-    padding: 5px;
+    border-radius: 2vw;
+    padding: 2%;
     width: 5vw;
   }
 
@@ -116,8 +116,8 @@ a { text-decoration: none; }
     text-decoration: none;
     color: rgb(185, 48, 94);
     background: none;
-    border-radius: 15px;
-    padding: 5px;
+    border-radius: 2vw;
+    padding: 2%;
     width: 5vw;
   }
 
@@ -126,7 +126,7 @@ a { text-decoration: none; }
   color: white;
   font-weight: bold;
   border-color: white;
-  border-radius: 15px;
+  border-radius: 2vw;
   padding: 1%;
   width: 8vw;
   align-self: center;
@@ -135,14 +135,13 @@ a { text-decoration: none; }
 
 /* RECTANGULOS */
 .rectangulo{
-width: 1100px;
+width: 80vw;
 height: 26vw;
 
 }
 .rectangulo#rectangulo-verde {
     background-color: rgb(35, 57, 35);
-    margin-top: -33px;
-    margin-bottom: 25px;;
+    margin-bottom: 2vw;
     display: flex;
     flex-direction:row;
     color:white;
@@ -159,7 +158,7 @@ align-content:flex-start;
 
 .textos {
 padding: 8%;
-font-size: 15px;
+font-size: 1.1vw;
 font-weight: 13;
 display: flex;
 flex-direction: column;
@@ -169,7 +168,7 @@ text-align: center;
 
 .rectangulo#azul {
     background-color: rgb(81, 113, 208);
-    margin-bottom: 25px;;
+    margin-bottom: 1vw;
     display: flex;
     flex-direction:row-reverse;
     color:white;
@@ -178,8 +177,8 @@ text-align: center;
 
 .rectangulo#rojo {
     background-color: rgb(209, 47, 41);
-    margin-top: 25px;
-    margin-bottom: 25px;;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
     display: flex;
     flex-direction:row;
     color:white;
@@ -187,8 +186,8 @@ text-align: center;
 
 .rectangulo#cuatro {
     background-color: rgb(26, 60, 38);
-    margin-top: 25px;
-    margin-bottom: 25px;;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
     display: flex;
     flex-direction:row-reverse;
     color:white;
@@ -196,8 +195,8 @@ text-align: center;
 
 .rectangulo#quinto {
     background-color: rgb(200, 31, 26);
-    margin-top: 25px;
-    margin-bottom: 25px;;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
     display: flex;
     flex-direction:row;
     color:white;
@@ -217,16 +216,16 @@ button#conocemas{
 }
 
 #cards{
-  width:522px;
+  width:33.9vw;
   height:auto;
   
 }
 
 .cuadro1{
-  width: 522px;
-  height:600px;
+  width: 33.9vw;
+  height:40vw;
   background-color: pink;
-  margin-right: 50px;
+  margin-right: 5vw;
 
   display:flex;
   flex-direction: column;
@@ -234,8 +233,8 @@ button#conocemas{
 
 
 .cuadro2{
-  width: 522px;
-  height:600px;
+  width: 33.9vw;
+  height:40vw;
   background-color: rgb(130, 181, 208);
 
   display:flex;
@@ -256,9 +255,9 @@ button#conocemas{
 /* FOOTER */
 
 .redes img{
-  width: 30px;
+  width: 3vw;
   height: auto;
-  margin: 10px;
+  margin: 1vw;
 }
 
 .footer {
@@ -266,9 +265,9 @@ button#conocemas{
     width: 100%;
     height: auto;
     background-color: #fff;
-    padding: 15px;
+    padding: 2%;
     box-shadow: 0 1px 3px rgb(128, 124, 124);
-    margin-top: 25px;
+    margin-top: 1vw;
   }
 
   .listas{
@@ -276,22 +275,24 @@ button#conocemas{
     display: flex;
     flex-direction: row;
     justify-self: start;
-    margin-left: 260px;
-    margin-bottom: 15px;
+    margin-left: 15vw;
+    margin-bottom: 2vw;
     text-align: start;
   }
   
 
  .listas li{
-  padding: 10px;
+  padding: 0.8vw;
  }
  .listas li:nth-child(1){
-  padding-top: 30px;
+  padding-top: 2vw;
  }
 .footer-container {
   width: 100%;
-  max-width: 1440px;
+  max-width: 100%;
   margin: 0 auto;
   padding: 0 30px 30px;
 }
+
+
 
