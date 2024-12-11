@@ -161,68 +161,13 @@ a{
 
 .right-container{
     width: 50vw;
-    height: 100vh;
     margin-left: 32vw;
-    margin-top: 4.5vw;
+    margin-top: 7vw;
     width: calc(100vw - 25vw);
     text-align: center;
     padding: 2%;
     
   }
-
-
-  .form-container {
-    background-color: rgb(242, 241, 241);
-    padding: 20px 30px;
-    width: 100%;
-    max-width: 55vw;
-    margin-left: 6vw;
-    padding-top: 5vw;
-
-}
-
-label {
-    display: flex;
-    margin-bottom: 5px;
-    font-size: 14px;
-    font-weight: 500;
-    color: #555;
-    justify-content: start;
-    margin-left: 15vw;
-    padding-bottom: 1vw;
-    padding-top: 1vw;
-}
-
-input {
-    background-color: rgb(242, 241, 241);
-    border-top: none;
-    border-left: none;
-    border-right: none;
-    font-size: 17px;
-    font-weight: 800;
-   
-    width: 25vw;
-    padding: 1.2%;
-    margin-bottom: 15px;
-    
-}
-
-#olvide{
-    display: flex;
-    margin-left: 16vw;
-    color: #00704a;
-    font-weight: bold;
-    font-size: 13px;
-    padding-bottom: 4vw;
-}
-
-
-input:focus {
-    border-color: #00704a;
-    outline: none;
-    box-shadow: 0 0 5px rgba(0, 112, 74, 0.5);
-}
-
 
 .banner {
     background-color: rgb(22, 6, 6);
@@ -295,10 +240,12 @@ input:focus {
       width: 70vw;
       height: auto;
       background-color: #fff;
+      padding: 15px;
       box-shadow: 0 1px 3px rgb(128, 124, 124);
-      margin-top: 25px;
+      margin-top: 0vw;
       margin-left: -1vw;
       padding-top: 2vw;
+      background-color: rgb(227, 227, 227);
     }
   
 
@@ -307,7 +254,37 @@ input:focus {
     width: 100%;
     max-width: 1400px;
     margin: 0 auto;
-    padding: 0 40px 40px;
+    padding: 0 30px 30px;
+    
   }
 
+  .listas{
+    display: flex;
+    flex-direction: row;
+    margin-left: 3vw;
+    margin-bottom: 5vw;
+    font-size: 17px;
+    text-decoration: none;
+    color: gray;
+   
+  }
+
+  #lista-unoo{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+  }
+
+  #lista-doss{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    margin-left: -3vw;
+  }
+
+  .listas li{
+    padding: 1vw;
+  }
 
