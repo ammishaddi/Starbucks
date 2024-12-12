@@ -125,6 +125,10 @@ a{
     width: 8vw;
   }
 
+  .boton-unete a{
+    text-decoration: none;
+    color: aliceblue;
+  }
   
  /*REWARDS*/
  .rewards-container{
