@@ -207,6 +207,9 @@ input {
     
 }
 
+
+
+
 #olvide{
     display: flex;
     margin-left: 16vw;
@@ -216,12 +219,28 @@ input {
     padding-bottom: 4vw;
 }
 
+.boton-login{
+  background-color: rgb(53, 187, 120);
+  color:white;
+  font-weight: bold;
+  border-radius: 2vw;
+  border: none;
+  padding: 3%;
+  width: auto;
+  height: 3vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 30vw;
+  margin-top: -3vw;
+  margin-bottom: 4vw;
+  font-size: 15px;
+}
 
 input:focus {
-    border-color: #00704a;
+    border-color: #1ec144;
     outline: none;
-    box-shadow: 0 0 5px rgba(0, 112, 74, 0.5);
-}
+}  
 
 
 .banner {
